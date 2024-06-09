@@ -1,0 +1,127 @@
+
+ header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+  }
+ 
+ table {
+  border-collapse: collapse; /* Remove gaps between cells */
+}
+
+.image-cell {
+  width: 100px; /* Adjust width as needed */
+  height: 300px; /* Adjust height as needed */
+  background-size: cover; /* Resize image to fit cell */
+}
+
+.image-cell:nth-child(1) {
+  background-image: url('x.jpg'); /* Set image for 1st cell */
+}
+
+.image-cell:nth-child(2) {
+  background-image: url('y.jpg'); /* Set image for 2nd cell */
+}
+
+.image-cell:nth-child(3) {
+  background-image: url("z.jpg"); /* Set image for 3rd cell */
+}
+.a-v {
+  width: 200px; /* Adjust width as needed */
+  height: 70px; /* Adjust height as needed */
+  background-size: cover; /* Resize image to fit cell */
+}
+
+.a-v:nth-child(1) {
+  background-image: url('celine.jpg'); /* Set image for 1st cell */
+}
+
+.a-v:nth-child(2) {
+  background-image: url('rose.jpg'); /* Set image for 2nd cell */
+}
+
+.a-v:nth-child(3) {
+  background-image: url('dior.jpg'); /* Set image for 3rd cell */
+}
+
+.a-v:nth-child(4) {
+  background-image: url('chanel.jpg');
+}
+
+.a-v:nth-child(5) {
+  background-image: url('gucci.jpg');
+}
+
+.a-v:nth-child(6) {
+  background-image: url('zara.jpg');
+}
+
+.a-b {
+  width: 40px; /* Adjust width as needed */
+  height: 40px; /* Adjust height as needed */
+  background-size: cover; /* Resize image to fit cell */
+}
+
+.a-b:nth-child(1) {
+  background-image: url('jeans.jpg'); /* Set image for 1st cell */
+}
+
+.a-b:nth-child(2) {
+  background-image: url('croptop.jpg'); /* Set image for 2nd cell */
+}
+
+.a-b:nth-child(3) {
+  background-image: url('tshirt.jpg'); /* Set image for 3rd cell */
+}
+
+.a-b:nth-child(4) {
+  background-image: url('crochet.jpg');
+}
+
+.a-b:nth-child(5) {
+  background-image: url('kurta.jpg');
+}
+
+.a-b:nth-child(6) {
+  background-image: url('"C:\Users\athar\Desktop\fashionalay images\anarkali.jpg"');
+}
+
+a-c{
+  width: 40px; /* Adjust width as needed */
+  height: 100px; /* Adjust height as needed */
+   /* Resize image to fit cell */
+}
+
+.a-c:nth-child(1) {
+  background-image: url('summerfemale.jpg'); /* Set image for 1st cell */
+}
+
+.a-c:nth-child(2) {
+  background-image: url('summermale.jpg'); /* Set image for 2nd cell */
+}
+
+.a-c:nth-child(3) {
+  background-image: url('coat.jpg'); /* Set image for 3rd cell */
+}
+
+.a-c:nth-child(4) {
+  background-image: url('sweater.jpg');
+}
+
+.a-c:nth-child(5) {
+  background-image: url('raincoat.jpg');
+}
+
+.footer {
+   position: fixed;
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   background-color:LightGray;
+   text-align: center;
+}
+
